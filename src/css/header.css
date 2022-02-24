@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+.header {
+    height: 517px;
+    width: 100%;
+    display: flex;
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/greenwich-banner-fon-domtut.jpg");
+    background-position: center;    
+    transition: all ease .5s;
+    
+}
+#navbar {
+    position: relative;
+}
+.content {
+    width: 85%;
+    text-align: center;
+    color: #fff;
+}
+.modal-backdrop {
+    z-index: 0 !important;
+}
+.content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Roboto;
+    font-style: normal;
+    text-shadow: 2px 2px 2px #000000 !important;
+}
+.content h2 {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Roboto;
+    font-style: normal;}
+.content1 {
+    position: relative;
+    height: 187px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+    padding: 20px 20px 0px;
+    transition: all ease 0.5s;
+}
+.input1 {
+    width: 386.6px;
+    height: 42px;
+    padding: 6px 15px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+}
+.btnplus {
+    justify-content: space-between;
+    align-items: center;
+}
+.menus1 {
+    margin-top: 25px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: start;
+    height: 0px;
+    transition: all ease .5s;
+}
+.menus1 input {
+    margin-right: 5px;
+}
+.menus1 label {
+    cursor: pointer;
+}
+.btns {
+    width:340px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.btn3 {
+    background-color: rgba(0, 0, 0, 0);
+    color:#fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.btn4 {
+    background-color: #00AEEF;
+    padding: 12px 25px 12px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto;
+}
+.btn5 {
+    background-color: #FFE800;
+    padding: 12px 45px 12px 45px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Roboto;
+}
+.content1 a {
+    cursor: pointer;
+}

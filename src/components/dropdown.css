@@ -1,0 +1,109 @@
+.contentt1 {
+    overflow-y: scroll;
+    height: 250px;
+    position: absolute;
+    width: 190px;
+    margin-top: 43px;
+    background-color: #fff;
+    color: #333333;
+    z-index: 2;
+}
+.dropdown1 a {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333333;
+}
+.dropdown1 a:hover {
+    background-color: #d0ebf5;;
+}
+.menu1, .menu2, .menu3, .menu4 {
+    background-color: #fff;
+    
+    width: 193.33px;
+    height: 42px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border-left: 0.5px solid rgba(169, 169, 169, 0.637);
+}
+.menu4 {
+    border-radius: 0px 10px 10px 0px;
+}
+.menu1 span, .menu2 span, .menu3 span, .menu4 span {
+    color: #959595;
+    font-size: 14px;
+}
+.menu1 i, .menu2 i, .menu3 i, .menu4 i {
+    color: #00aeef;
+    font-size: 15px;
+}
+.tumanlar {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.contentt2 {
+    overflow-y: scroll;
+    background-color: #fff;
+    color: #333333;
+    width: 564px;
+    height: 305px;
+    position:absolute;
+    margin-top: 43px;
+    left: 48%;
+    z-index: 3;
+}
+.tashkilot {
+    display: flex;
+}
+.qur1,.qur2,.qur3{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.contentt3 {
+    background-color: #fff;
+    color: #333333;
+    position: absolute;
+    width: 192.5px;
+    height: 194px;
+    left: 62.8%;
+    margin-top: 43px;
+    z-index: 3;
+}
+.contentt4 {
+    background-color: #fff;
+    color: #333333;
+    position: absolute;
+    margin-top: 43px;
+    overflow-y: scroll;
+    width: 229px;
+    height: 191px;
+    left: 77%;
+    z-index: 3;
+}
+.contentt4 a {
+    text-align: start;
+}
+.soni {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    grid-gap: 6px;
+    z-index: 3;
+}
+.soni a {
+    border: 0.5px solid rgba(169, 169, 169, 0.384);
+    border-radius: 5px;
+}
+.soni a:hover {
+    border-color: #0288b9;
+}
+.narxlar {
+    font-size: 14px;
+    text-align: start;
+    margin: 0;
+}

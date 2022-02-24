@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+.navbar {
+    height: 90px;
+}
+.logo {
+    width: 125px;
+    height: 23px;
+}
+.dropdownn, .dropdownn2 {
+    position: relative;
+    display: inline-block;
+  }
+.dropdownn:hover , .dropdownn2:hover {
+    cursor: pointer;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    padding: 5px 20px;
+    top: 40px;
+    box-shadow: 0px 0px 20px 0px darkgray;
+  }
+  .dropdown-content div {
+    margin: 0px 20px;
+  }
+  .dropdown-content div a {
+    margin: 7px 0;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+  }
+  .item1 {
+      width: 800px;
+  }
+  
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdownn:hover .dropdown-content {
+    display: block;
+}
+.dropdownn2:hover .dropdown-content2 {
+    display: block;
+}
+nav a{
+    color: #004274 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+nav {
+    background-color: #FFFFFF;
+    
+    line-height: 24px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0  / 30%);
+}
+.login {
+  width: 200px;
+}
+form a {
+  cursor: pointer;
+}
+.kirish{
+  padding: 8px 15px;
+  background-color: #ffe800;
+  color: black !important;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.tglink {
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff !important;
+  background-color: #00aeef;
+  border-radius: 5px;
+}
+.btnkirish {
+  border: none !important;
+  color: #004274 !important;
+  font-family: Roboto;
+  font-weight: 550;
+  font-size: 14px;
+
+}
+.forum {
+  color: #fff !important;
+  font-weight: bold !important;
+  background-color: #004274;
+  padding: 20px 37.5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.foruma{
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.705) !important;
+}
+.modalheader {
+  padding: 0 !important;
+  background-color: #004274;
+}
+.modal-body{
+  display: flex;
+  flex-direction: column;
+}
+.btn-closee {
+  width: 50px;
+  height: 50px;
+  color: #fff !important;
+  font-weight: bold;
+  border: none;
+  margin-right: 1%;
+  font-size: 20px;
+  background-color: #004274;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 10px;
+}
